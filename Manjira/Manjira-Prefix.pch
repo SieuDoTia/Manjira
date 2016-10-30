@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Manjira' target in the 'Manjira' project
+//
+
+#ifdef __OBJC__
+   #import <Cocoa/Cocoa.h>
+#endif
