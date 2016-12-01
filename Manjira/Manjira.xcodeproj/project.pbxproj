@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651D09E71871E5C900456DA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 651D09E91871E5C900456DA8 /* Localizable.strings */; };
+		651E83A0188C787D00A812CD /* Manjira.help in Resources */ = {isa = PBXBuildFile; fileRef = 651E839F188C787D00A812CD /* Manjira.help */; };
+		651EDF4A19E7D37B001B8E52 /* GiaiThuat_MJ_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 651EDF4919E7D37B001B8E52 /* GiaiThuat_MJ_2.m */; };
+		651EDF4D19E7E118001B8E52 /* GiaiThuat_MJ_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 651EDF4C19E7E118001B8E52 /* GiaiThuat_MJ_3.m */; };
+		651EDF5019E7E3CC001B8E52 /* GiaiThuat_MJ_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 651EDF4F19E7E3CC001B8E52 /* GiaiThuat_MJ_4.m */; };
+		651EDF5319E7E3F8001B8E52 /* GiaiThuat_MJ_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 651EDF5219E7E3F8001B8E52 /* GiaiThuat_MJ_5.m */; };
+		652FB7161DC6BC6200C3A23A /* TôBóng_HọaTiết.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 652FB7121DC6BC6200C3A23A /* TôBóng_HọaTiết.fsh */; };
+		652FB7171DC6BC6200C3A23A /* TôBóng_HọaTiết.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 652FB7131DC6BC6200C3A23A /* TôBóng_HọaTiết.vsh */; };
+		652FB71A1DC6C05E00C3A23A /* TôBóng.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 652FB7181DC6C05E00C3A23A /* TôBóng.fsh */; };
+		652FB71B1DC6C05E00C3A23A /* TôBóng.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 652FB7191DC6C05E00C3A23A /* TôBóng.vsh */; };
+		6548F27819E7B09D009D9CE7 /* ToMauPhanDang1x1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6548F27719E7B09D009D9CE7 /* ToMauPhanDang1x1.m */; };
+		654ABBFC183C564E006E4AF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654ABBFB183C564E006E4AF4 /* Cocoa.framework */; };
+		654ABC06183C564E006E4AF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 654ABC04183C564E006E4AF4 /* InfoPlist.strings */; };
+		654ABC08183C564E006E4AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC07183C564E006E4AF4 /* main.m */; };
+		654ABC0C183C564E006E4AF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 654ABC0A183C564E006E4AF4 /* Credits.rtf */; };
+		654ABC0F183C564E006E4AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC0E183C564E006E4AF4 /* AppDelegate.m */; };
+		654ABC12183C564F006E4AF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654ABC10183C564F006E4AF4 /* MainMenu.xib */; };
+		654ABC2A183C5FAC006E4AF4 /* ChieuPhanDang.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC23183C5FAC006E4AF4 /* ChieuPhanDang.m */; };
+		654ABC2B183C5FAC006E4AF4 /* ManThanhMau.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC25183C5FAC006E4AF4 /* ManThanhMau.m */; };
+		654ABC2C183C5FAC006E4AF4 /* QuanLyDoChieu.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC27183C5FAC006E4AF4 /* QuanLyDoChieu.m */; };
+		654ABC2D183C5FAC006E4AF4 /* ToBong.m in Sources */ = {isa = PBXBuildFile; fileRef = 654ABC29183C5FAC006E4AF4 /* ToBong.m */; };
+		654ABC34183C6322006E4AF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654ABC33183C6322006E4AF4 /* OpenGL.framework */; };
+		6564808119E2387B007CBC5C /* TinhPhanDang1x1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564808019E2387B007CBC5C /* TinhPhanDang1x1.m */; };
+		6573AB62196CD9700030DD3B /* LuuHoaTietPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6573AB61196CD9700030DD3B /* LuuHoaTietPNG.m */; };
+		657F1697183DC13300927FA1 /* ToMau.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F1696183DC13300927FA1 /* ToMau.m */; };
+		659C431619E7ED38000F4C42 /* GiaiThuat_MJ_PhanSo.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C431519E7ED38000F4C42 /* GiaiThuat_MJ_PhanSo.m */; };
+		659C431A19E80EF6000F4C42 /* TinhLaiPhanDang1x1.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C431919E80EF6000F4C42 /* TinhLaiPhanDang1x1.m */; };
+		659C431D19E819C9000F4C42 /* TinhPhanDang4x4.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C431C19E819C9000F4C42 /* TinhPhanDang4x4.m */; };
+		659C432019E8BDE7000F4C42 /* ToMauPhanDang4x4.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C431F19E8BDE5000F4C42 /* ToMauPhanDang4x4.m */; };
+		659C432419E91CAA000F4C42 /* GiaiThuat_MJ_Cosh.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C432319E91CAA000F4C42 /* GiaiThuat_MJ_Cosh.m */; };
+		659C432719E9203D000F4C42 /* GiaiThuat_MJ_Exp.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C432619E9203D000F4C42 /* GiaiThuat_MJ_Exp.m */; };
+		65A6BBF819D7A85D000DB016 /* ThongTinPhanDang.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A6BBF719D7A85D000DB016 /* ThongTinPhanDang.m */; };
+		65B9FE791845697800C8A23D /* CacKho.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B9FE781845697700C8A23D /* CacKho.m */; };
+		65C868B2186065FB001945C6 /* ExrHalf.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C868B1186065FA001945C6 /* ExrHalf.m */; };
+		65C868BB18612C11001945C6 /* LuuEXR.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C868BA18612C11001945C6 /* LuuEXR.m */; };
+		65C868BE1863D26C001945C6 /* ImfFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C868BD1863D26C001945C6 /* ImfFilter.m */; };
+		65D4348D186BDA1500BF4E9F /* Icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 65D4348C186BDA1500BF4E9F /* Icon.iconset */; };
+		65DB8B0818401945006FD909 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8AF518401945006FD909 /* adler32.c */; };
+		65DB8B0918401945006FD909 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8AF618401945006FD909 /* crc32.c */; };
+		65DB8B0A18401945006FD909 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8AF818401945006FD909 /* deflate.c */; };
+		65DB8B0B18401945006FD909 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8AFB18401945006FD909 /* inffast.c */; };
+		65DB8B0C18401945006FD909 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8AFE18401945006FD909 /* inflate.c */; };
+		65DB8B0D18401945006FD909 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8B0018401945006FD909 /* inftrees.c */; };
+		65DB8B0E18401945006FD909 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8B0218401945006FD909 /* trees.c */; };
+		65DB8B0F18401945006FD909 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DB8B0618401945006FD909 /* zutil.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		651D09E118713B9B00456DA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = vi; path = vi.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		651D09E218713B9B00456DA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		651D09E318713B9B00456DA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = vi; path = vi.lproj/Credits.rtf; sourceTree = "<group>"; };
+		651D09E418713BBB00456DA8 /* th */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = th; path = th.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		651D09E518713BBB00456DA8 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		651D09E618713BBB00456DA8 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = th; path = th.lproj/Credits.rtf; sourceTree = "<group>"; };
+		651D09E81871E5C900456DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		651D09EA1871E5D900456DA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		651D09EB1871E5DA00456DA8 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		651E839F188C787D00A812CD /* Manjira.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Manjira.help; sourceTree = "<group>"; };
+		651EDF4719E7CBD8001B8E52 /* GiaiThuat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiaiThuat.h; sourceTree = "<group>"; };
+		651EDF4819E7D37B001B8E52 /* GiaiThuat_MJ_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_2.h; sourceTree = "<group>"; };
+		651EDF4919E7D37B001B8E52 /* GiaiThuat_MJ_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_2.m; sourceTree = "<group>"; };
+		651EDF4B19E7E117001B8E52 /* GiaiThuat_MJ_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_3.h; sourceTree = "<group>"; };
+		651EDF4C19E7E118001B8E52 /* GiaiThuat_MJ_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_3.m; sourceTree = "<group>"; };
+		651EDF4E19E7E3CC001B8E52 /* GiaiThuat_MJ_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_4.h; sourceTree = "<group>"; };
+		651EDF4F19E7E3CC001B8E52 /* GiaiThuat_MJ_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_4.m; sourceTree = "<group>"; };
+		651EDF5119E7E3F8001B8E52 /* GiaiThuat_MJ_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_5.h; sourceTree = "<group>"; };
+		651EDF5219E7E3F8001B8E52 /* GiaiThuat_MJ_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_5.m; sourceTree = "<group>"; };
+		652FB7121DC6BC6200C3A23A /* TôBóng_HọaTiết.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "TôBóng_HọaTiết.fsh"; path = "Manjira/TôBóng/TôBóng_HọaTiết.fsh"; sourceTree = SOURCE_ROOT; };
+		652FB7131DC6BC6200C3A23A /* TôBóng_HọaTiết.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "TôBóng_HọaTiết.vsh"; path = "Manjira/TôBóng/TôBóng_HọaTiết.vsh"; sourceTree = SOURCE_ROOT; };
+		652FB7181DC6C05E00C3A23A /* TôBóng.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "TôBóng.fsh"; path = "Manjira/TôBóng/TôBóng.fsh"; sourceTree = SOURCE_ROOT; };
+		652FB7191DC6C05E00C3A23A /* TôBóng.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "TôBóng.vsh"; path = "Manjira/TôBóng/TôBóng.vsh"; sourceTree = SOURCE_ROOT; };
+		6548F27619E7B09D009D9CE7 /* ToMauPhanDang1x1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToMauPhanDang1x1.h; sourceTree = "<group>"; };
+		6548F27719E7B09D009D9CE7 /* ToMauPhanDang1x1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToMauPhanDang1x1.m; sourceTree = "<group>"; };
+		654ABBF8183C564E006E4AF4 /* Manjira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manjira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654ABBFB183C564E006E4AF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		654ABBFE183C564E006E4AF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		654ABBFF183C564E006E4AF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		654ABC00183C564E006E4AF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		654ABC03183C564E006E4AF4 /* Manjira-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manjira-Info.plist"; sourceTree = "<group>"; };
+		654ABC05183C564E006E4AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654ABC07183C564E006E4AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654ABC09183C564E006E4AF4 /* Manjira-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Manjira-Prefix.pch"; sourceTree = "<group>"; };
+		654ABC0B183C564E006E4AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		654ABC0D183C564E006E4AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		654ABC0E183C564E006E4AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		654ABC11183C564F006E4AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		654ABC22183C5FAC006E4AF4 /* ChieuPhanDang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChieuPhanDang.h; sourceTree = "<group>"; };
+		654ABC23183C5FAC006E4AF4 /* ChieuPhanDang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChieuPhanDang.m; sourceTree = "<group>"; };
+		654ABC24183C5FAC006E4AF4 /* ManThanhMau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManThanhMau.h; sourceTree = "<group>"; };
+		654ABC25183C5FAC006E4AF4 /* ManThanhMau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManThanhMau.m; sourceTree = "<group>"; };
+		654ABC26183C5FAC006E4AF4 /* QuanLyDoChieu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuanLyDoChieu.h; sourceTree = "<group>"; };
+		654ABC27183C5FAC006E4AF4 /* QuanLyDoChieu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuanLyDoChieu.m; sourceTree = "<group>"; };
+		654ABC28183C5FAC006E4AF4 /* ToBong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToBong.h; sourceTree = "<group>"; };
+		654ABC29183C5FAC006E4AF4 /* ToBong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToBong.m; sourceTree = "<group>"; };
+		654ABC33183C6322006E4AF4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6564807F19E2387B007CBC5C /* TinhPhanDang1x1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinhPhanDang1x1.h; sourceTree = "<group>"; };
+		6564808019E2387B007CBC5C /* TinhPhanDang1x1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinhPhanDang1x1.m; sourceTree = "<group>"; };
+		6573AB60196CD9700030DD3B /* LuuHoaTietPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuuHoaTietPNG.h; sourceTree = "<group>"; };
+		6573AB61196CD9700030DD3B /* LuuHoaTietPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuuHoaTietPNG.m; sourceTree = "<group>"; };
+		657F1695183DC13300927FA1 /* ToMau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToMau.h; sourceTree = "<group>"; };
+		657F1696183DC13300927FA1 /* ToMau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToMau.m; sourceTree = "<group>"; };
+		659C431419E7ED37000F4C42 /* GiaiThuat_MJ_PhanSo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_PhanSo.h; sourceTree = "<group>"; };
+		659C431519E7ED38000F4C42 /* GiaiThuat_MJ_PhanSo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_PhanSo.m; sourceTree = "<group>"; };
+		659C431819E80EF6000F4C42 /* TinhLaiPhanDang1x1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinhLaiPhanDang1x1.h; sourceTree = "<group>"; };
+		659C431919E80EF6000F4C42 /* TinhLaiPhanDang1x1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinhLaiPhanDang1x1.m; sourceTree = "<group>"; };
+		659C431B19E819C9000F4C42 /* TinhPhanDang4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinhPhanDang4x4.h; sourceTree = "<group>"; };
+		659C431C19E819C9000F4C42 /* TinhPhanDang4x4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinhPhanDang4x4.m; sourceTree = "<group>"; };
+		659C431E19E8BDE5000F4C42 /* ToMauPhanDang4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToMauPhanDang4x4.h; sourceTree = "<group>"; };
+		659C431F19E8BDE5000F4C42 /* ToMauPhanDang4x4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToMauPhanDang4x4.m; sourceTree = "<group>"; };
+		659C432219E91CA9000F4C42 /* GiaiThuat_MJ_Cosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_Cosh.h; sourceTree = "<group>"; };
+		659C432319E91CAA000F4C42 /* GiaiThuat_MJ_Cosh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_Cosh.m; sourceTree = "<group>"; };
+		659C432519E9203D000F4C42 /* GiaiThuat_MJ_Exp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiThuat_MJ_Exp.h; sourceTree = "<group>"; };
+		659C432619E9203D000F4C42 /* GiaiThuat_MJ_Exp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiThuat_MJ_Exp.m; sourceTree = "<group>"; };
+		65A6BBF619D7A85D000DB016 /* ThongTinPhanDang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThongTinPhanDang.h; sourceTree = "<group>"; };
+		65A6BBF719D7A85D000DB016 /* ThongTinPhanDang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThongTinPhanDang.m; sourceTree = "<group>"; };
+		65A6BBF919D7AA19000DB016 /* HangSoManjira.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HangSoManjira.h; path = Class/HangSoManjira.h; sourceTree = "<group>"; };
+		65A745351BE8176D00F6304E /* km */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = km; path = km.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65A745361BE8176D00F6304E /* km */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = km; path = km.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65A745371BE8176D00F6304E /* km */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = km; path = km.lproj/Localizable.strings; sourceTree = "<group>"; };
+		65A745381BE8176D00F6304E /* km */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = km; path = km.lproj/Credits.rtf; sourceTree = "<group>"; };
+		65B9FE771845697700C8A23D /* CacKho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacKho.h; sourceTree = "<group>"; };
+		65B9FE781845697700C8A23D /* CacKho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacKho.m; sourceTree = "<group>"; };
+		65C868B0186065FA001945C6 /* ExrHalf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExrHalf.h; sourceTree = "<group>"; };
+		65C868B1186065FA001945C6 /* ExrHalf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExrHalf.m; sourceTree = "<group>"; };
+		65C868B918612C11001945C6 /* LuuEXR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuuEXR.h; sourceTree = "<group>"; };
+		65C868BA18612C11001945C6 /* LuuEXR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuuEXR.m; sourceTree = "<group>"; };
+		65C868BC1863D26C001945C6 /* ImfFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImfFilter.h; sourceTree = "<group>"; };
+		65C868BD1863D26C001945C6 /* ImfFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImfFilter.m; sourceTree = "<group>"; };
+		65D4348C186BDA1500BF4E9F /* Icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = Icon.iconset; path = ../Icon.iconset; sourceTree = "<group>"; };
+		65D58AAB187278F2006E4E0D /* Manjira.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Manjira.entitlements; sourceTree = "<group>"; };
+		65DB8AF518401945006FD909 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		65DB8AF618401945006FD909 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		65DB8AF718401945006FD909 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		65DB8AF818401945006FD909 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		65DB8AF918401945006FD909 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		65DB8AFA18401945006FD909 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		65DB8AFB18401945006FD909 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		65DB8AFC18401945006FD909 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		65DB8AFD18401945006FD909 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		65DB8AFE18401945006FD909 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		65DB8AFF18401945006FD909 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		65DB8B0018401945006FD909 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		65DB8B0118401945006FD909 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		65DB8B0218401945006FD909 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		65DB8B0318401945006FD909 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		65DB8B0418401945006FD909 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		65DB8B0518401945006FD909 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		65DB8B0618401945006FD909 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		65DB8B0718401945006FD909 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654ABBF5183C564E006E4AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABC34183C6322006E4AF4 /* OpenGL.framework in Frameworks */,
+				654ABBFC183C564E006E4AF4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654ABBEF183C564E006E4AF4 = {
+			isa = PBXGroup;
+			children = (
+				654ABC01183C564E006E4AF4 /* Manjira */,
+				654ABBFA183C564E006E4AF4 /* Frameworks */,
+				654ABBF9183C564E006E4AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654ABBF9183C564E006E4AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654ABBF8183C564E006E4AF4 /* Manjira.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654ABBFA183C564E006E4AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654ABC33183C6322006E4AF4 /* OpenGL.framework */,
+				654ABBFB183C564E006E4AF4 /* Cocoa.framework */,
+				654ABBFD183C564E006E4AF4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		654ABBFD183C564E006E4AF4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654ABBFE183C564E006E4AF4 /* AppKit.framework */,
+				654ABBFF183C564E006E4AF4 /* CoreData.framework */,
+				654ABC00183C564E006E4AF4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		654ABC01183C564E006E4AF4 /* Manjira */ = {
+			isa = PBXGroup;
+			children = (
+				65A6BBF919D7AA19000DB016 /* HangSoManjira.h */,
+				654ABC0D183C564E006E4AF4 /* AppDelegate.h */,
+				654ABC0E183C564E006E4AF4 /* AppDelegate.m */,
+				654ABC10183C564F006E4AF4 /* MainMenu.xib */,
+				654ABC21183C5FAC006E4AF4 /* Class */,
+				654ABC02183C564E006E4AF4 /* Supporting Files */,
+				65D58AAB187278F2006E4E0D /* Manjira.entitlements */,
+			);
+			path = Manjira;
+			sourceTree = "<group>";
+		};
+		654ABC02183C564E006E4AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				654ABC2E183C5FF9006E4AF4 /* Tô Bóng */,
+				654ABC03183C564E006E4AF4 /* Manjira-Info.plist */,
+				65D4348C186BDA1500BF4E9F /* Icon.iconset */,
+				651E839F188C787D00A812CD /* Manjira.help */,
+				654ABC04183C564E006E4AF4 /* InfoPlist.strings */,
+				654ABC07183C564E006E4AF4 /* main.m */,
+				651D09E91871E5C900456DA8 /* Localizable.strings */,
+				654ABC09183C564E006E4AF4 /* Manjira-Prefix.pch */,
+				654ABC0A183C564E006E4AF4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		654ABC21183C5FAC006E4AF4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				654ABC22183C5FAC006E4AF4 /* ChieuPhanDang.h */,
+				654ABC23183C5FAC006E4AF4 /* ChieuPhanDang.m */,
+				654ABC24183C5FAC006E4AF4 /* ManThanhMau.h */,
+				654ABC25183C5FAC006E4AF4 /* ManThanhMau.m */,
+				654ABC26183C5FAC006E4AF4 /* QuanLyDoChieu.h */,
+				654ABC27183C5FAC006E4AF4 /* QuanLyDoChieu.m */,
+				6564807F19E2387B007CBC5C /* TinhPhanDang1x1.h */,
+				6564808019E2387B007CBC5C /* TinhPhanDang1x1.m */,
+				659C431819E80EF6000F4C42 /* TinhLaiPhanDang1x1.h */,
+				659C431919E80EF6000F4C42 /* TinhLaiPhanDang1x1.m */,
+				659C431B19E819C9000F4C42 /* TinhPhanDang4x4.h */,
+				659C431C19E819C9000F4C42 /* TinhPhanDang4x4.m */,
+				659C432119E8BE8E000F4C42 /* Tô Màu */,
+				65A6BBF619D7A85D000DB016 /* ThongTinPhanDang.h */,
+				65A6BBF719D7A85D000DB016 /* ThongTinPhanDang.m */,
+				659C431719E80D86000F4C42 /* Giải Thuật */,
+				65B9FE771845697700C8A23D /* CacKho.h */,
+				65B9FE781845697700C8A23D /* CacKho.m */,
+				6573AB60196CD9700030DD3B /* LuuHoaTietPNG.h */,
+				6573AB61196CD9700030DD3B /* LuuHoaTietPNG.m */,
+				65C868B51860F502001945C6 /* EXR */,
+				654ABC28183C5FAC006E4AF4 /* ToBong.h */,
+				654ABC29183C5FAC006E4AF4 /* ToBong.m */,
+				65DB8AF418401945006FD909 /* zlib1_2_7 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		654ABC2E183C5FF9006E4AF4 /* Tô Bóng */ = {
+			isa = PBXGroup;
+			children = (
+				652FB7181DC6C05E00C3A23A /* TôBóng.fsh */,
+				652FB7191DC6C05E00C3A23A /* TôBóng.vsh */,
+				652FB7121DC6BC6200C3A23A /* TôBóng_HọaTiết.fsh */,
+				652FB7131DC6BC6200C3A23A /* TôBóng_HọaTiết.vsh */,
+			);
+			name = "Tô Bóng";
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		659C431719E80D86000F4C42 /* Giải Thuật */ = {
+			isa = PBXGroup;
+			children = (
+				651EDF4719E7CBD8001B8E52 /* GiaiThuat.h */,
+				651EDF4819E7D37B001B8E52 /* GiaiThuat_MJ_2.h */,
+				651EDF4919E7D37B001B8E52 /* GiaiThuat_MJ_2.m */,
+				651EDF4B19E7E117001B8E52 /* GiaiThuat_MJ_3.h */,
+				651EDF4C19E7E118001B8E52 /* GiaiThuat_MJ_3.m */,
+				651EDF4E19E7E3CC001B8E52 /* GiaiThuat_MJ_4.h */,
+				651EDF4F19E7E3CC001B8E52 /* GiaiThuat_MJ_4.m */,
+				651EDF5119E7E3F8001B8E52 /* GiaiThuat_MJ_5.h */,
+				651EDF5219E7E3F8001B8E52 /* GiaiThuat_MJ_5.m */,
+				659C431419E7ED37000F4C42 /* GiaiThuat_MJ_PhanSo.h */,
+				659C431519E7ED38000F4C42 /* GiaiThuat_MJ_PhanSo.m */,
+				659C432219E91CA9000F4C42 /* GiaiThuat_MJ_Cosh.h */,
+				659C432319E91CAA000F4C42 /* GiaiThuat_MJ_Cosh.m */,
+				659C432519E9203D000F4C42 /* GiaiThuat_MJ_Exp.h */,
+				659C432619E9203D000F4C42 /* GiaiThuat_MJ_Exp.m */,
+			);
+			name = "Giải Thuật";
+			sourceTree = "<group>";
+		};
+		659C432119E8BE8E000F4C42 /* Tô Màu */ = {
+			isa = PBXGroup;
+			children = (
+				657F1695183DC13300927FA1 /* ToMau.h */,
+				657F1696183DC13300927FA1 /* ToMau.m */,
+				6548F27619E7B09D009D9CE7 /* ToMauPhanDang1x1.h */,
+				6548F27719E7B09D009D9CE7 /* ToMauPhanDang1x1.m */,
+				659C431E19E8BDE5000F4C42 /* ToMauPhanDang4x4.h */,
+				659C431F19E8BDE5000F4C42 /* ToMauPhanDang4x4.m */,
+			);
+			name = "Tô Màu";
+			sourceTree = "<group>";
+		};
+		65C868B51860F502001945C6 /* EXR */ = {
+			isa = PBXGroup;
+			children = (
+				65C868B1186065FA001945C6 /* ExrHalf.m */,
+				65C868B0186065FA001945C6 /* ExrHalf.h */,
+				65C868B918612C11001945C6 /* LuuEXR.h */,
+				65C868BA18612C11001945C6 /* LuuEXR.m */,
+				65C868BC1863D26C001945C6 /* ImfFilter.h */,
+				65C868BD1863D26C001945C6 /* ImfFilter.m */,
+			);
+			name = EXR;
+			sourceTree = "<group>";
+		};
+		65DB8AF418401945006FD909 /* zlib1_2_7 */ = {
+			isa = PBXGroup;
+			children = (
+				65DB8AF518401945006FD909 /* adler32.c */,
+				65DB8AF618401945006FD909 /* crc32.c */,
+				65DB8AF718401945006FD909 /* crc32.h */,
+				65DB8AF818401945006FD909 /* deflate.c */,
+				65DB8AF918401945006FD909 /* deflate.h */,
+				65DB8AFA18401945006FD909 /* gzguts.h */,
+				65DB8AFB18401945006FD909 /* inffast.c */,
+				65DB8AFC18401945006FD909 /* inffast.h */,
+				65DB8AFD18401945006FD909 /* inffixed.h */,
+				65DB8AFE18401945006FD909 /* inflate.c */,
+				65DB8AFF18401945006FD909 /* inflate.h */,
+				65DB8B0018401945006FD909 /* inftrees.c */,
+				65DB8B0118401945006FD909 /* inftrees.h */,
+				65DB8B0218401945006FD909 /* trees.c */,
+				65DB8B0318401945006FD909 /* trees.h */,
+				65DB8B0418401945006FD909 /* zconf.h */,
+				65DB8B0518401945006FD909 /* zlib.h */,
+				65DB8B0618401945006FD909 /* zutil.c */,
+				65DB8B0718401945006FD909 /* zutil.h */,
+			);
+			path = zlib1_2_7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654ABBF7183C564E006E4AF4 /* Manjira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654ABC15183C564F006E4AF4 /* Build configuration list for PBXNativeTarget "Manjira" */;
+			buildPhases = (
+				654ABBF4183C564E006E4AF4 /* Sources */,
+				654ABBF5183C564E006E4AF4 /* Frameworks */,
+				654ABBF6183C564E006E4AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manjira;
+			productName = Manjira;
+			productReference = 654ABBF8183C564E006E4AF4 /* Manjira.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654ABBF0183C564E006E4AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "星凤";
+			};
+			buildConfigurationList = 654ABBF3183C564E006E4AF4 /* Build configuration list for PBXProject "Manjira" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+				th,
+				km,
+			);
+			mainGroup = 654ABBEF183C564E006E4AF4;
+			productRefGroup = 654ABBF9183C564E006E4AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654ABBF7183C564E006E4AF4 /* Manjira */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654ABBF6183C564E006E4AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652FB7161DC6BC6200C3A23A /* TôBóng_HọaTiết.fsh in Resources */,
+				652FB7171DC6BC6200C3A23A /* TôBóng_HọaTiết.vsh in Resources */,
+				652FB71A1DC6C05E00C3A23A /* TôBóng.fsh in Resources */,
+				652FB71B1DC6C05E00C3A23A /* TôBóng.vsh in Resources */,
+				654ABC06183C564E006E4AF4 /* InfoPlist.strings in Resources */,
+				654ABC0C183C564E006E4AF4 /* Credits.rtf in Resources */,
+				654ABC12183C564F006E4AF4 /* MainMenu.xib in Resources */,
+				65D4348D186BDA1500BF4E9F /* Icon.iconset in Resources */,
+				651D09E71871E5C900456DA8 /* Localizable.strings in Resources */,
+				651E83A0188C787D00A812CD /* Manjira.help in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654ABBF4183C564E006E4AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654ABC08183C564E006E4AF4 /* main.m in Sources */,
+				654ABC0F183C564E006E4AF4 /* AppDelegate.m in Sources */,
+				654ABC2A183C5FAC006E4AF4 /* ChieuPhanDang.m in Sources */,
+				654ABC2B183C5FAC006E4AF4 /* ManThanhMau.m in Sources */,
+				654ABC2C183C5FAC006E4AF4 /* QuanLyDoChieu.m in Sources */,
+				654ABC2D183C5FAC006E4AF4 /* ToBong.m in Sources */,
+				657F1697183DC13300927FA1 /* ToMau.m in Sources */,
+				65DB8B0818401945006FD909 /* adler32.c in Sources */,
+				65DB8B0918401945006FD909 /* crc32.c in Sources */,
+				65DB8B0A18401945006FD909 /* deflate.c in Sources */,
+				65DB8B0B18401945006FD909 /* inffast.c in Sources */,
+				65DB8B0C18401945006FD909 /* inflate.c in Sources */,
+				65DB8B0D18401945006FD909 /* inftrees.c in Sources */,
+				65DB8B0E18401945006FD909 /* trees.c in Sources */,
+				65DB8B0F18401945006FD909 /* zutil.c in Sources */,
+				65B9FE791845697800C8A23D /* CacKho.m in Sources */,
+				65C868B2186065FB001945C6 /* ExrHalf.m in Sources */,
+				65C868BB18612C11001945C6 /* LuuEXR.m in Sources */,
+				65C868BE1863D26C001945C6 /* ImfFilter.m in Sources */,
+				6573AB62196CD9700030DD3B /* LuuHoaTietPNG.m in Sources */,
+				65A6BBF819D7A85D000DB016 /* ThongTinPhanDang.m in Sources */,
+				6564808119E2387B007CBC5C /* TinhPhanDang1x1.m in Sources */,
+				6548F27819E7B09D009D9CE7 /* ToMauPhanDang1x1.m in Sources */,
+				651EDF4A19E7D37B001B8E52 /* GiaiThuat_MJ_2.m in Sources */,
+				651EDF4D19E7E118001B8E52 /* GiaiThuat_MJ_3.m in Sources */,
+				651EDF5019E7E3CC001B8E52 /* GiaiThuat_MJ_4.m in Sources */,
+				651EDF5319E7E3F8001B8E52 /* GiaiThuat_MJ_5.m in Sources */,
+				659C431619E7ED38000F4C42 /* GiaiThuat_MJ_PhanSo.m in Sources */,
+				659C431A19E80EF6000F4C42 /* TinhLaiPhanDang1x1.m in Sources */,
+				659C431D19E819C9000F4C42 /* TinhPhanDang4x4.m in Sources */,
+				659C432019E8BDE7000F4C42 /* ToMauPhanDang4x4.m in Sources */,
+				659C432419E91CAA000F4C42 /* GiaiThuat_MJ_Cosh.m in Sources */,
+				659C432719E9203D000F4C42 /* GiaiThuat_MJ_Exp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		651D09E91871E5C900456DA8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651D09E81871E5C900456DA8 /* en */,
+				651D09EA1871E5D900456DA8 /* vi */,
+				651D09EB1871E5DA00456DA8 /* th */,
+				65A745371BE8176D00F6304E /* km */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		654ABC04183C564E006E4AF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654ABC05183C564E006E4AF4 /* en */,
+				651D09E218713B9B00456DA8 /* vi */,
+				651D09E518713BBB00456DA8 /* th */,
+				65A745361BE8176D00F6304E /* km */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		654ABC0A183C564E006E4AF4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654ABC0B183C564E006E4AF4 /* en */,
+				651D09E318713B9B00456DA8 /* vi */,
+				651D09E618713BBB00456DA8 /* th */,
+				65A745381BE8176D00F6304E /* km */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		654ABC10183C564F006E4AF4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654ABC11183C564F006E4AF4 /* en */,
+				651D09E118713B9B00456DA8 /* vi */,
+				651D09E418713BBB00456DA8 /* th */,
+				65A745351BE8176D00F6304E /* km */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654ABC13183C564F006E4AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		654ABC14183C564F006E4AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		654ABC16183C564F006E4AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Manjira/Manjira.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manjira/Manjira-Prefix.pch";
+				INFOPLIST_FILE = "Manjira/Manjira-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		654ABC17183C564F006E4AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Manjira/Manjira.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manjira/Manjira-Prefix.pch";
+				INFOPLIST_FILE = "Manjira/Manjira-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654ABBF3183C564E006E4AF4 /* Build configuration list for PBXProject "Manjira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABC13183C564F006E4AF4 /* Debug */,
+				654ABC14183C564F006E4AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654ABC15183C564F006E4AF4 /* Build configuration list for PBXNativeTarget "Manjira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654ABC16183C564F006E4AF4 /* Debug */,
+				654ABC17183C564F006E4AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654ABBF0183C564E006E4AF4 /* Project object */;
+}
